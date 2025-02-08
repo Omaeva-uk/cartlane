@@ -8,9 +8,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        bgbrown: "#F5F5F5",
+        aboutText: "#ECECEC", 
       },
+      backgroundColor: {
+        gridCardBlack: "#151515",
+        gridCardBrown: "#CBCBCB",
+      }
     },
   },
   plugins: [],

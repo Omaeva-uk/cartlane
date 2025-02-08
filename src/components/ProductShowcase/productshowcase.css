@@ -1,0 +1,23 @@
+.showcase-bg{
+    background: url("/assets/showcase/showcase-bg.png") no-repeat center;
+    background-size: cover;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.showcase-h1-intro{
+    
+    animation: heading-intro linear both;
+    animation-timeline: view(500px 80px);
+}
+
+@keyframes heading-intro{
+    0%{
+        transform: translateY(70px);
+        opacity: 0;
+    }
+    100%{
+        transform: none;
+        opacity: 1;
+    }
+}

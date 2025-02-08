@@ -1,0 +1,48 @@
+.mobile-nav{
+    height: 0;
+    animation: open-mob-nav .5s cubic-bezier(0,0.5,0,1) forwards;
+}
+
+@keyframes open-mob-nav{
+    100%{
+        height: fit-content;
+    }
+}
+
+
+.nav-animation{
+    max-width: 0;
+    transform: scale(0.4) translateX(200%);
+    
+    opacity: 0;
+    animation: nav-intro 1.5s .3s cubic-bezier(0,0.5,0,1) forwards, nav-expand 1s 1.8s ease-out forwards ;
+}
+
+@keyframes nav-intro{
+    100%{
+        transform: none;
+        opacity: 1;
+        max-width: 500px;
+        
+    }
+    
+}
+
+@keyframes nav-expand{
+    100%{
+        max-width: 1200px;
+    }
+}
+
+.nav-intro-hide{
+    visibility: hidden;
+    opacity: 0;
+    animation: nav-intro-hide .2s ease-in 1s forwards;
+}
+
+@keyframes nav-intro-hide{
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}

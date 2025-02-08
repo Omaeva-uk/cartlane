@@ -1,0 +1,97 @@
+.hero-img-animate{
+    transform: translateX(60%) scale(0.7);
+    opacity: 0;
+    animation: image-intro 1s ease-in 2s forwards;
+    visibility: hidden;
+}
+
+@keyframes image-intro{
+    100%{
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.ring-animate{
+    transform: scale(0.5);
+    opacity: 0;
+    animation: ring-animate .5s ease-in 2.5s forwards;
+}
+
+@keyframes ring-animate{
+    100%{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    transform: scale(0.6);
+    animation: fade-in .5s cubic-bezier(0,.5,0,1) forwards;
+}
+
+@keyframes fade-in{
+    100%{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.main-title{
+    animation-delay: 2.6s;
+}
+
+.primary-btm{
+    animation-delay: 3s;
+}
+
+.sign-in{
+    animation-delay: 3.3s;
+}
+
+.left-slide-in{
+    transform: translateX(50%) scale(0.4);
+    opacity: 0;
+    animation: left-in .8s cubic-bezier(0,.71,.53,1.42) forwards;
+}
+
+.feature-card-1{
+    animation-delay: 3.5s;
+}
+
+.feature-card-2{
+    animation-delay: 3.8s;
+}
+
+.feature-card-3{
+    animation-delay: 4.1s;
+}
+
+@keyframes left-in{
+    100%{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.scroll-watcher{
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    scale: 0 1;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+    z-index: 100;
+    transform-origin: 0;
+}
+
+@keyframes scroll-watcher{
+    100%{
+        scale: 1 1;
+    }
+}
+
