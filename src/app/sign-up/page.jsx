@@ -1,10 +1,10 @@
 import { Navbar } from "@/components";
-import "./signin.css"
+import "./signup.css"
 import Image from "next/image";
-import Link from "next/link";
 import { Footer } from "@/components";
+import Link from "next/link";
 
-const SignInPage = () => {
+const SignUp = () => {
   return (
     <div>
     <div className="md:h-screen flex max-md:flex-col-reverse relative">
@@ -14,7 +14,7 @@ const SignInPage = () => {
       <div className="flex-1 pt-8 md:pt-20 lg:pt-24">
         <div className="max-w-[450px] p-8 mx-auto">
           <div className="lg:mt-14">
-            <h2 className="text-2xl font-medium">Welcome back!</h2>
+            <h2 className="text-2xl font-medium">Get Started Now</h2>
             <p className="text-xl mt-3">Enter your credentials to access your account</p>
           </div>
           <div className="mt-6 lg:10">
@@ -23,10 +23,10 @@ const SignInPage = () => {
               <label htmlFor="">Name</label>
               <input type="text" />
             </div>
-            {/* <div className="mt-5">
+            <div className="mt-5">
               <label htmlFor="">Email Address</label>
               <input type="text" />
-            </div> */}
+            </div>
             <div className="mt-5">
               <label htmlFor="">Password</label>
               <input type="text" />
@@ -36,10 +36,10 @@ const SignInPage = () => {
               <p>I agree to terms and services</p>
             </div>
             <div className="flex items-center flex-wrap max-w-[400px] justify-normal mt-4 lg:mt-10 gap-3">
-              <Link href="/sign-up" className="flex-1 flex items-center justify-center gap-5 max-w-[180px] border  p-3 px-5 rounded-xl"><div className=" max-lg:hidden"><Image src="/up-arrow-black.png" width={30} height={30} alt="contact us icon" className="max-md:hidden" /></div>Sign up</Link>
+              <button className="flex-1 flex items-center text-white justify-center gap-5 max-w-[180px] bg-gridCardBlack border  p-3 px-5 rounded-xl"><div className=" max-lg:hidden"><Image src="/up-arrow-white.png" width={30} height={30} alt="contact us icon" className="max-md:hidden" /></div>Sign up</button>
               <p>Or</p>
-              {/* <button className="flex-1 flex items-center justify-center gap-5 max-w-[180px] border  p-3 px-5 rounded-xl"><div className=" max-lg:hidden"><Image src="/up-arrow-black.png" width={30} height={30} alt="contact us icon" className="max-md:hidden" /></div>Sign up</button> */}
-              <button className="flex-1 flex items-center justify-center gap-5 max-w-[180px] border bg-gridCardBlack text-white rounded-xl p-3 px-5"><div className="max-lg:hidden"><Image src="/up-arrow-white.png" width={30} height={30} alt="contact us icon" className="max-md:hidden" /></div>Log In</button>
+              <Link href="/sign-in" className="flex-1 flex items-center justify-center gap-5 max-w-[180px] border rounded-xl p-3 px-5"><div className="max-lg:hidden"><Image src="/up-arrow-black.png" width={30} height={30} alt="contact us icon" className="max-md:hidden" /></div>Log In</Link>
+              {/* <button className="flex-1 flex items-center justify-center gap-5 max-w-[180px] border rounded-xl p-3 px-5"><div className="max-lg:hidden"><Image src="/up-arrow-black.png" width={30} height={30} alt="contact us icon" className="max-md:hidden" /></div>Log In</button> */}
             </div>
           </form>
         </div>  
@@ -63,4 +63,4 @@ const SignInPage = () => {
   )
 }
 
-export default SignInPage;
+export default SignUp;

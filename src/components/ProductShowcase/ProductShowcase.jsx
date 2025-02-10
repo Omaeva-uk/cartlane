@@ -39,7 +39,7 @@ const ProductShowcase = () => {
 
   return (
     <div className=" max-w-[1200]  pt-8 lg:px-16 px-7 my-24   mx-auto">
-        <h2 className="showcase-h1-intro text-5xl leading-snug max-w-3xl font-semibold"><span className="text-aboutText">Simplify</span> Workflows and <span className="text-aboutText">Supercharge</span> Decision-Making</h2>
+        <h2 className="showcase-h1-intro text-5xl leading-snug max-w-3xl font-semibold"><span className="text-black/40">Simplify</span> Workflows and <span className="text-black/40">Supercharge</span> Decision-Making</h2>
         <div className="w-full mt-24 showcase-bg relative p-20">
             <div className=" flex justify-between items-centre">
                 <div className="">
@@ -74,7 +74,7 @@ const ProductShowcase = () => {
             {
                 showcaseData.map((item, i) => (
                     <div key={i}>
-                        <div className="showcase-progress w-full  h-[7px] rounded-xl">
+                        <div className="showcase-progress w-full bg-black  h-[7px] rounded-xl">
 
                         </div>
                         <div className="flex flex-col justify-between">

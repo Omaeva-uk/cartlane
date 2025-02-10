@@ -12,8 +12,8 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 max-md:gap-10 mt-5 md:mt-20 mx-auto">
             <div className="max-w-md mt-5">
                 <h1 className="text-4xl leading-[130%] main-title fade-in lg:text-6xl lg:leading-[130%] font-semibold">Simplify Order Processing<span className="max-sm:hidden"><Image className="ml-4 inline-block" src="/assets/hero/cart-logo.png" alt="cart logo" width={51} height={61} /></span> and Invoicing with Cartlane</h1>
-                <PrimaryButton classname="mt-5 mb-7 primary-btm fade-in" href="/sign-in" text="Join our platform now" />
-                <p className="ml-2 sign-in fade-in">Existing customer? <Link href="/" target="_blank" className=" underline underline-black">Sign Up</Link> </p>
+                <PrimaryButton classname="mt-5 mb-7 primary-btm fade-in" href="/sign-up" text="Join our platform now" />
+                <p className="ml-2 sign-in fade-in">Existing customer? <Link href="/sign-in" className=" underline underline-black">Sign In</Link> </p>
             </div>
             <div className=" relative">
                 <div className=" absolute top-5 left-0 ring-animate max-md:hidden">

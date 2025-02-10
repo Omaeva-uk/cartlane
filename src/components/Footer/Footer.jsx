@@ -24,7 +24,7 @@ const Footer = ({mt}) => {
       </div>
       <div className="h-[1px] my-10 w-full bg-white/30"></div>
       <div className="flex flex-wrap gap-2 justify-between items-center text-white/70 text-sm">
-        <p>©Copyrights. All Rights reserved</p>
+        <p>©Copyrights. All Rights reserved {new Date().getFullYear()}</p>
         <p>Designed & Developed by Omaeva Ltd. </p>
         <Link href="/privacy-policy">Privacy Policy</Link>
       </div>

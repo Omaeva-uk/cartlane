@@ -19,7 +19,7 @@ const Features = () => {
 
   return (
     <div className=" max-w-[1200]  pt-8 lg:px-16 px-7 my-24  mx-auto">
-        <h2 data-aos="fade-up" className="text-5xl leading-snug max-w-3xl font-semibold"><span className="text-aboutText">Smart Solutions</span>, Tailored for Your Business Success</h2>
+        <h2 data-aos="fade-up" className="text-5xl leading-snug max-w-3xl font-semibold"><span className="text-black/40">Smart Solutions</span>, Tailored for Your Business Success</h2>
         <div className="grid-features mt-20 ">
             {
                 featuresData.map((item, i) => (

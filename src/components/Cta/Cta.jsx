@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Cta = () => {
   return (
-    <div id="contact-us" className="bg-bgbrown pt-8 h-[130vh] relative">
+    <div id="contact-us" className="bg-bgbrown pt-8 lg:h-[130vh] relative">
       <div className=" max-w-[1200] lg:px-16 px-7 my-24 flex flex-col items-center gap-5  mx-auto">
         <p data-aos="fade-up" className="text-black/70 text-center">
             {CtaData.subPara}
@@ -20,7 +20,7 @@ const Cta = () => {
         <div data-aos="zoom-in" className="bg-black bg-[url('/assets/cta/radar.png')] max-w-[1400px] bg-no-repeat bg-center bg-contain flex flex-wrap justify-between gap-12 p-8 px-12 rounded-3xl absolute -bottom-52  items-center">
           <div className="flex justify-between items-center max-w-xs gap-5">
             <Image src="/assets/cta/location.png" width={50} height={50} alt="Location" />
-            <p className="text-white">One Grand Casemates Square Gibraltar, GX11 1AA</p>
+            <p className="text-white">25F, 2nd Floor, Cathedral Garden Rd,Chennai, Tamil Nadu 600034, India</p>
           </div>
           {/* <div>
             <Image src="/assets/cta/radar.png" width={300} height={50} alt="Style image" />
