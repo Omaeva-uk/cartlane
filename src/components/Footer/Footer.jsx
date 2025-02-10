@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Footer = () => {
+const Footer = ({mt}) => {
   return (
-    <div className="mt-[17rem] text-white  max-w-[1600] bg-black  pt-8 lg:px-16 px-7 p-7  mx-auto">
+    <div className={`${!mt ? 'mt-0' : 'mt-[17rem]'}  text-white  max-w-[1600] bg-black  pt-8 lg:px-16 px-7 p-7  mx-auto`}>
       <div className="flex flex-wrap justify-between">
         <div>
         <Image src="/assets/footer-logo.png" width={145} height={45} alt="Cartlane Logo" />
@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="flex flex-wrap gap-2 justify-between items-center text-white/70 text-sm">
         <p>©Copyrights. All Rights reserved</p>
         <p>Designed & Developed by Omaeva Ltd. </p>
-        <Link href="">Privacy Policy</Link>
+        <Link href="/privacy-policy">Privacy Policy</Link>
       </div>
     </div>
   )

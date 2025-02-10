@@ -1,5 +1,5 @@
 .hero-img-animate{
-    transform: translateX(60%) scale(0.7);
+    transform: translateX(60%) scale(0);
     opacity: 0;
     animation: image-intro 1s ease-in 2s forwards;
     visibility: hidden;

@@ -4,14 +4,14 @@ import Image from "next/image";
 
 const Cta = () => {
   return (
-    <div className="bg-bgbrown pt-8 h-[130vh] relative">
+    <div id="contact-us" className="bg-bgbrown pt-8 h-[130vh] relative">
       <div className=" max-w-[1200] lg:px-16 px-7 my-24 flex flex-col items-center gap-5  mx-auto">
         <p data-aos="fade-up" className="text-black/70 text-center">
             {CtaData.subPara}
         </p>
         <h2 data-aos="fade-up" className="text-4xl md:text-5xl md:leading-snug font-semibold text-center max-w-4xl leading-snug "><span className="text-black/40">Seamless</span>{CtaData.heading}</h2>
         <div data-aos="fade-up">
-          <PrimaryButton text="Start Your Free Trial Today" />
+          <PrimaryButton href="/sign-in" text="Start Your Free Trial Today" />
         </div>
         
         <div data-aos="zoom-in" className="relative -top-[10px] md:-top-[100px] ">

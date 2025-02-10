@@ -1,25 +1,38 @@
-"use client"
+
 
 import Image from "next/image";
 import "./productshowcase.css";
 import { showcaseData } from "@/data/data";
-import { useState, useEffect } from "react";
 
 const ProductShowcase = () => {
 
-    const [width, setWidth] = useState(window.innerWidth);
+    
+    // useEffect(() => {
+    //     //console.log("hello");
+    //   const bar = document.querySelectorAll(".showcase-progress");
+    //   console.log(bar);
 
-    function handleWindowSizeChange() {
-        setWidth(window.innerWidth);
-    }
-    useEffect(() => {
-        window.addEventListener('resize', handleWindowSizeChange);
-        return () => {
-            window.removeEventListener('resize', handleWindowSizeChange);
-        }
-    }, [width]);
+    //     let newBar = 0
+    //     let activeBar = bar[newBar];
+    //     activeBar.style.backgroundColor = "red";
+    //     console.log(newBar);
 
-    const isMobile = width <= 768;
+    //   setInterval(() => {
+    //     activeBar.style.backgroundColor = "blue";
+    //     newBar++;
+    //     if(newBar <= 2){
+    //         activeBar = bar[newBar];
+            
+    //     console.log(activeBar);
+    //     }else{
+    //         newBar = 0;
+    //         console.log("resetted");
+    //     }
+        
+    //   }, 3000);
+    // }, [])
+    
+
 
 
 
@@ -61,7 +74,7 @@ const ProductShowcase = () => {
             {
                 showcaseData.map((item, i) => (
                     <div key={i}>
-                        <div className="w-full h-[7px] rounded-xl bg-black/80">
+                        <div className="showcase-progress w-full  h-[7px] rounded-xl">
 
                         </div>
                         <div className="flex flex-col justify-between">

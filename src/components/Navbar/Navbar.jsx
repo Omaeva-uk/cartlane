@@ -17,12 +17,12 @@ const Navbar = () => {
   return (
     <header className="max-w-[1200px] mx-auto nav-animation">
         <nav className="flex justify-between items-center relative">
-            <div>
-                <Image src="/assets/nav-logo.png" alt="Cartlane logo" width={147} height={50} />
-            </div>
+            <Link href="/">
+                <Image priority={true} src="/assets/nav-logo.png" alt="Cartlane logo" width={147} height={50} />
+            </Link>
             <div className="flex nav-intro-hide items-center ml-auto gap-5 max-sm:hidden">
                 <Link href="/about" >About Us</Link>
-                <PrimaryButton text="Contact Us" />
+                <PrimaryButton href="" text="Contact Us" />
             </div>
             {/* Mobile nav */}
             <div onClick={() => setNavOpen((prev) => !prev)}>
@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className={`sm:hidden ${navOpen ? 'visible' : 'hidden'} transition-all absolute right-0 top-12 bg-black text-white rounded-xl w-full text-right`}>
                 <div className="flex flex-col justify-end gap-4 p-5 pr-2">
                     <Link href="/about" >About Us</Link> 
-                    <Link href="/about" >Contact Us</Link> 
+                    <Link href="#contact-us" scroll={false} >Contact Us</Link> 
                 </div>
             </div>
             
