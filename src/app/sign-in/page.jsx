@@ -8,7 +8,7 @@ const SignInPage = () => {
   return (
     <div>
     <div className="md:h-screen flex max-md:flex-col-reverse relative">
-      <div className="z-50 mx-10 absolute top-0 left-0 right-0 mt-7">
+      <div className="z-50 absolute top-0 left-0 right-0 mt-7">
         <Navbar />
       </div>
       <div className="flex-1 pt-8 md:pt-20 lg:pt-24">

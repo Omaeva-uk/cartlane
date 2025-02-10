@@ -5,7 +5,7 @@ import { Footer } from "@/components";
 const page = () => {
   return (
     <div className="">
-        <div className="mx-10 mt-10">
+        <div className=" mt-10">
         <Navbar />
       </div>
       <div className="my-16 max-w-[1200px] px-10 mx-auto">
