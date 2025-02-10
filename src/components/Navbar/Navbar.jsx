@@ -21,7 +21,7 @@ const Navbar = () => {
                 <Image priority={true} src="/assets/nav-logo.png" alt="Cartlane logo" width={147} height={50} />
             </Link>
             <div className="flex nav-intro-hide items-center ml-auto gap-5 max-sm:hidden">
-                <Link href="/about" >About Us</Link>
+                <Link href="/#about" >About Us</Link>
                 <PrimaryButton href="/#contact-us" text="Contact Us" />
             </div>
             {/* Mobile nav */}
@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
             <div className={`sm:hidden ${navOpen ? 'visible' : 'hidden'} transition-all absolute right-0 top-12 bg-black text-white rounded-xl w-full text-right`}>
                 <div className="flex flex-col justify-end gap-4 p-5 pr-2">
-                    <Link href="/about" >About Us</Link> 
+                    <Link href="/#about" >About Us</Link> 
                     <Link href="/#contact-us" >Contact Us</Link> 
                 </div>
             </div>
