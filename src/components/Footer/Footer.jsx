@@ -11,8 +11,8 @@ const Footer = ({mt}) => {
       </div>
       <div className="flex max-sm:flex-col max-sm:mt-4 gap-7">
         <div className="flex sm:flex-col gap-3">
-          <Link href="">About</Link>
-          <Link href="">Join Us</Link>
+          <Link href="/#about">About</Link>
+          <Link href="/sign-up">Join Us</Link>
         </div>
         <div className="flex sm:flex-col gap-3">
           <Link href="">X (Twitter)</Link>
@@ -24,7 +24,7 @@ const Footer = ({mt}) => {
       </div>
       <div className="h-[1px] my-10 w-full bg-white/30"></div>
       <div className="flex flex-wrap gap-2 justify-between items-center text-white/70 text-sm">
-        <p>©Copyrights. All Rights reserved {new Date().getFullYear()}</p>
+        <p>©{new Date().getFullYear()} Copyrights. All Rights reserved</p>
         <p>Designed & Developed by Omaeva Ltd. </p>
         <Link href="/privacy-policy">Privacy Policy</Link>
       </div>
