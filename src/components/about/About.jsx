@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div  className=" max-w-[1200]  pt-8 lg:px-16 px-7  mx-auto">
+    <div  className=" max-w-[1200] overflow-hidden  pt-8 lg:px-16 px-7  mx-auto">
         <div data-aos="fade-up" className=" relative">
             <p className="leading-normal lg:leading-normal lg:tracking-tight tracking-tight text-4xl lg:text-6xl ">{aboutData.mainPara}</p>
             <div className="doodle-1 absolute top-10 lg:top-20 lg:left-[10vw]"><Image src="/assets/hero/doodle-about.png" alt="about doodle" width={270} height={22} /></div>

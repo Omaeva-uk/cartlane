@@ -10,7 +10,7 @@ export default function Home() {
       <Features />
       <ProductShowcase />
       <Cta />
-      <Footer />
+      <Footer mt={true} />
     </div>
   )
 }
