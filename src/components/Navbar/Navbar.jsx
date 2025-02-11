@@ -26,12 +26,12 @@ const Navbar = () => {
             </div>
             {/* Mobile nav */}
             <div onClick={() => setNavOpen((prev) => !prev)}>
-               <div className="w-[40px] h-[40px] rounded-xl bg-black sm:hidden flex justify-center items-center text-white">
+               <div className="w-[40px] h-[40px] rounded-xl bg-black sm:hidden flex justify-center items-center text-white ">
                 <Image src="/assets/mob-nav-icon.png" width={18} height={12} alt="mobile icon" />
                 </div> 
                 
             </div>
-            <div className={`sm:hidden ${navOpen ? 'visible' : 'hidden'} transition-all absolute right-0 top-12 bg-black text-white rounded-xl w-full text-right`}>
+            <div className={`sm:hidden ${navOpen ? 'visible' : 'hidden'} transition-all absolute right-0 top-12 text-white rounded-xl w-full text-right nav-glass`}>
                 <div className="flex flex-col justify-end gap-4 p-5 pr-2">
                     <Link href="/#about" >About Us</Link> 
                     <Link href="/#contact-us" >Contact Us</Link> 

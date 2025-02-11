@@ -20,7 +20,7 @@ const Cta = () => {
         <div data-aos="zoom-in" className="bg-black bg-[url('/assets/cta/radar.png')] max-w-[1400px] bg-no-repeat bg-center bg-contain flex flex-wrap justify-between gap-12 p-8 px-12 rounded-3xl absolute -bottom-52  items-center">
           <div className="flex justify-between items-center max-w-xs gap-5">
             <Image src="/assets/cta/location.png" width={50} height={50} alt="Location" />
-            <p className="text-white">25F, 2nd Floor, Cathedral Garden Rd,Chennai, Tamil Nadu 600034, India</p>
+            <p className="text-white">25F, 2nd Floor, Cathedral Garden Rd, Chennai, Tamil Nadu 600034, India</p>
           </div>
           {/* <div>
             <Image src="/assets/cta/radar.png" width={300} height={50} alt="Style image" />
