@@ -10,11 +10,11 @@ const Cta = () => {
             {CtaData.subPara}
         </p>
         <h2 data-aos="fade-up" className="text-4xl md:text-5xl md:leading-snug font-semibold text-center max-w-4xl leading-snug "><span className="text-black/40">Seamless</span>{CtaData.heading}</h2>
-        <div data-aos="fade-up">
+        <div data-aos="fade-up  " style={{position: "relative", zIndex: 100}}>
           <PrimaryButton href="/sign-in" text="Start Your Free Trial Today" />
         </div>
         
-        <div data-aos="zoom-in" className="relative -top-[10px] md:-top-[100px] ">
+        <div data-aos="zoom-in" className="relative -top-[10px]  md:-top-[100px] ">
             <Image src={CtaData.img} width={1000} height={100} alt="Cartlane product" />
         </div>
         <div data-aos="zoom-in" className="bg-black bg-[url('/assets/cta/radar.png')] max-w-[1400px] bg-no-repeat bg-center bg-contain flex flex-wrap justify-between gap-12 p-8 px-12 rounded-3xl absolute -bottom-52  items-center">

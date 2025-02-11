@@ -14,18 +14,18 @@ const page = () => {
             <p className="text-center mt-5">Last Updated Jan 14th, 2025</p>
         </div>
         <div className="mt-14 max-w-4xl">
-            <p className="text-xl">Welcome to Epyrocxx! Your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your personal data in compliance with the General Data Protection Regulation (GDPR) and other applicable EU data protection laws.</p>
+            <p className="text-xl">Welcome to Cartlane! Your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your personal data in compliance with the General Data Protection Regulation (GDPR) and other applicable EU data protection laws.</p>
             <div className="mt-10">
                 <h2 className="text-xl font-semibold">Effective Date:</h2>
                 <p>Jan 14th, 2025</p>   
             </div>
             <div className="mt-6">
                 <h2 className="text-xl font-semibold"> Who We Are</h2>
-                <p>Epyrocxx ("we," "our," or "us") is dedicated to providing exceptional flooring services while respecting your privacy. For any questions or concerns about this policy, please contact us:</p>   
+                <p>Cartlane ("we," "our," or "us") is dedicated to providing exceptional flooring services while respecting your privacy. For any questions or concerns about this policy, please contact us:</p>   
             </div>
             <div className="mt-6">
                 <h2 className="text-xl font-semibold"> Queries</h2>
-                <p><Link href="" className=" underline" >info@epyrocxx.com</Link></p>
+                <p><Link href="" className=" underline" >saravanakumar.ps@cartlane.in</Link></p>
             </div>
             <div className="mt-6">
                 <h2 className="text-xl font-semibold">  What Personal Data We Collect</h2>
@@ -107,7 +107,7 @@ const page = () => {
                     <h4 className="text-md mt-3 font-bold text-gray-900">Withdraw Consent</h4>
                     <p>Withdraw consent where processing is based on consent.</p>
                 </div>
-                <p className="mt-1">To exercise these rights, contact us at <Link href="" className=" underline">info@epyrocxx.com</Link>.</p>
+                <p className="mt-1">To exercise these rights, contact us at <Link href="" className=" underline">saravanakumar.ps@cartlane.in</Link>.</p>
             </div>
             <div className="mt-6">
                 <h2 className="text-xl font-semibold">Cookie Policy</h2>
@@ -139,14 +139,14 @@ const page = () => {
                 <p className="mt-3">For questions, concerns, or requests related to this Privacy Policy, please reach out to:</p>
                 <div className="mt-3">
                     <h4 className="text-md mt-3 font-bold text-gray-900">Other Queries</h4>
-                    <Link href="" className=" underline">info@epyrocxx.com</Link>
+                    <Link href="" className=" underline">saravanakumar.ps@cartlane.in</Link>
                 </div>
             </div>
             <div className="mt-6">
                 <h2 className="text-xl font-semibold"> Changes to This Policy</h2>
                 <p className="mt-3">We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised "Effective Date." We encourage you to review this policy periodically.</p>
             </div>
-            <p className="mt-10">Thank you for trusting Epyrocxx with your personal data. Your privacy matters to us.</p>
+            <p className="mt-10">Thank you for trusting Cartlane with your personal data. Your privacy matters to us.</p>
         </div>
        
       </div>
